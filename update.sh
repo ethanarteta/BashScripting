@@ -30,6 +30,11 @@ echo "Number of Upgradeable Packages: $upgradeable_count" >> "$output_file"
 # "chmod +x update.sh" 
 
 # Next we are going to add this script to Cron Job which will enable us to 
-# schedule this script 
+# schedule this script to run every friday at 11pm
+# "crontab -e"
 
+# Once we access the Cron file we will add the following command
+# "0 23 * * 5 /ubuntu/home/update.sh
+
+# Save and Exit once you're done.
 
