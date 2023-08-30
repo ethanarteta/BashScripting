@@ -1,4 +1,4 @@
-#1/bin/bash
+#!/bin/bash
 # Automated Server Update Script
 # This script was made to update the server automaticaly at Friday at 11 pm 
 # and to provide a .txt file that records the output of the update process 
